@@ -4,18 +4,24 @@ The Dancing Pony is a FastAPI application that manages user authentication and a
 
 ## Features
 
+- Controller-Service-Repository architecture
 - User registration and authentication
 - CRUD operations for dishes
 - Basic HTTP authentication
 - Temporary blocking of users after multiple failed login attempts
+- ORM migrations using alembic
+- Metric monitoring using Prometheus
+- Docker for containerization
+- Docker Compose for service orchestration
+- Swagger for documentation and API testing
 
 ## Installation
 
 1. **Clone the repository:**
 
 ```sh
-   git clone https://github.com/yourusername/the-dancing-pony.git
-   cd the-dancing-pony
+   git clone git@github.com:KMatlala/Dancing-Pony.git
+   cd Dancing-Pony
 ```
 
 2. **Set up virtual environment and install dependencies**
