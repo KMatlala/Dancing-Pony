@@ -1,4 +1,5 @@
 aioredis==2.0.1
+alembic==1.13.1
 annotated-types==0.6.0
 anyio==4.3.0
 argon2-cffi==23.1.0
@@ -34,6 +35,7 @@ mdurl==0.1.2
 orjson==3.10.3
 ormar==0.9.4
 passlib==1.7.4
+prometheus_client==0.20.0
 psycopg2==2.9.9
 pwdlib==0.2.0
 pycparser==2.22
