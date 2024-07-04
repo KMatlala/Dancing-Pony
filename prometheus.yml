@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 10s  # Set the scrape interval to every 10 seconds. Default is every 1 minute.
+
+scrape_configs:
+  - job_name: 'prometheus'  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+    static_configs:
+      - targets: ['localhost:9090']  # The Prometheus server itself.
+
+  - job_name: 'fastapi-app'  # Job name for your FastAPI application
+    static_configs:
+      - targets: ['localhost:8000']  # The target for your FastAPI app
+    metrics_path: /metrics  # Path to scrape the metrics from
+    relabel_configs:
+      - source_labels: [__address__]
+        regex: (.*)
+        target_label: __address__
+        replacement: ${1}  # This ensures the target address is used as-is

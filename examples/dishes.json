@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Lembas Bread",
+        "description": "Elven waybread, highly nutritious and long-lasting.",
+        "price": 4.99,
+        "image": "", 
+        "rating": 4.2
+    },
+    {
+        "name": "Hobbiton Beef Stew",
+        "description": "A hearty stew made with tender beef, potatoes, and carrots, slow-cooked to perfection.",
+        "price": 12.50,
+        "image": "", 
+        "rating": 5.0
+    },
+    {
+        "name": "Mushroom Pie",
+        "description": "A savory pie filled with mushrooms, leeks, and creamy sauce, a Hobbit favorite.",
+        "price": 8.75,
+        "image": "", 
+        "rating": 3.8
+    },
+    {
+        "name": "Elven Salad",
+        "description": "A fresh salad of mixed greens, edible flowers, and a light vinaigrette, inspired by the elves.",
+        "price": 7.25,
+        "image": "", 
+        "rating":1.6
+    },
+    {
+        "name": "Roast Mutton",
+        "description": "Succulent mutton roasted with herbs, served with a side of root vegetables.",
+        "price": 15.00,
+        "image": "", 
+        "rating": 4.1
+    },
+    {
+        "name": "Dwarven Ale",
+        "description": "A strong, flavorful ale brewed by the dwarves of Erebor.",
+        "price": 5.50,
+        "image": "", 
+        "rating": 4.9
+    },
+    {
+        "name": "Gondorian Lamb",
+        "description": "Roasted lamb seasoned with rosemary and garlic, a favorite in Gondor.",
+        "price": 14.00,
+        "image": "", 
+        "rating": 2.7
+    },
+    {
+        "name": "Bree Apple Tart",
+        "description": "A sweet tart filled with spiced apples, a popular dessert in Bree.",
+        "price": 6.50,
+        "image": "", 
+        "rating": 4.8
+    },
+    {
+        "name": "Shire Sausages",
+        "description": "Juicy sausages made from pork, seasoned with sage and other herbs, a Shire specialty.",
+        "price": 9.99,
+        "image": "", 
+        "rating": 3.5
+    }
+]
